@@ -1,6 +1,6 @@
 # nynpb-layouts
 
-A [NodeCG](http://github.com/nodecg/nodecg) layouts bundle used for the "[*New Year, New PB*](https://horaro.org/new-year-new-pb)" event broadcasted during January 06/07, 2024 on [No Glitches Allowed](https://twitch.tv/noglitchesallowed]. Depends on [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol).
+A [NodeCG](http://github.com/nodecg/nodecg) layouts bundle used for the "[*New Year, New PB*](https://horaro.org/new-year-new-pb)" event broadcasted during January 06/07, 2024 on [No Glitches Allowed](https://twitch.tv/noglitchesallowed). Depends on [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol).
 
 ## Before using
 
