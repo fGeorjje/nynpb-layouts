@@ -1,0 +1,47 @@
+.until {
+  position: absolute;
+  top: -30px;
+  left: -4px;
+  font-size: 20px;
+}
+
+.runinfo {
+  left: 1346px;
+  width: 506px;
+  overflow: initial !important;
+}
+
+#runinfo0 {
+  top: 98px;
+}
+#runinfo1 {
+  top: 320px;
+}
+#runinfo2 {
+  top: 542px;
+}
+#runinfo3 {
+  top: 764px;
+}
+
+.plate {
+  left: 1282px;
+  top: 982px;
+  width: 634px;
+}
+
+#nowPlaying {
+  bottom: 52px;
+  left: 34px;
+  width: 1214px;
+  height: 45px;
+}
+
+#nowPlaying > span {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #29003D;
+  border: 2px solid #00C663;
+}

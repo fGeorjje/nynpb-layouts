@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+		  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/layoutControl.css">
+    <script src="js/layoutControl.js" defer></script>
+  </head>
+  <body>
+    <button id="changeover" style="font-size: 40px">TRANSITION</button>
+    <div>
+      <input type="checkbox" id="flashinglightswarning"></input>
+      <label for="flashinglightswarning">Flashing Lights Warning</label>
+    </div>
+    <div>
+      <input type="checkbox" id="violencewarning"></input>
+      <label for="violencewarning">Violence Warning</label>
+    </div>
+    <div id="textReplicantsContainer">
+      <span></span>
+      <span>Name</span>
+      <span>Pronouns</span>
+      <span>Twitch</span>
+      
+      <span>Host</span>
+      <input type="text" id="name0"></input>
+      <input type="text" id="pronouns0"></input>
+      <input type="text" id="twitch0"></input>
+      
+      <span>Comm. 1</span>
+      <input type="text" id="name1"></input>
+      <input type="text" id="pronouns1"></input>
+      <input type="text" id="twitch1"></input>
+      
+      <span>Comm. 2</span>
+      <input type="text" id="name2"></input>
+      <input type="text" id="pronouns2"></input>
+      <input type="text" id="twitch2"></input>
+      
+      <span>Comm. 3</span>
+      <input type="text" id="name3"></input>
+      <input type="text" id="pronouns3"></input>
+      <input type="text" id="twitch3"></input>
+      
+      <span>Lightup Control</span>
+      <input type="text" id="lightup-control" style="grid-column: span 3"></input>
+    </div>
+    <button id="submit-comms">Submit Changes</button>
+    <br>
+    <button id="update-host">Update Host On Break Screen</button>
+  </body>
+</html>

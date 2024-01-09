@@ -1,0 +1,36 @@
+body, #background {
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 100%);
+}
+
+#texts {
+  position: fixed;
+  left: 4px;
+  top: 4px;
+  width: 1642px;
+  height: 30px;
+}
+
+.text {
+  position: absolute;
+  top: 0px;
+  font-size: 25px;
+  color: #E1CCBD;
+  overflow: clip;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+#rta {
+  top: 2px;
+  left: 1655px;
+  color: #00C663;
+  font-family: monospace;
+}
+
+img, body, #background {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 38px;
+}

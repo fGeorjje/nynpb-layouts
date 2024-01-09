@@ -1,0 +1,9 @@
+#textReplicantsContainer {
+  display: grid;
+  grid-template-columns: min-content 3fr 1fr 3fr;
+  column-gap: 10px;
+}
+
+#textReplicantsContainer > span {
+  white-space: nowrap;
+}

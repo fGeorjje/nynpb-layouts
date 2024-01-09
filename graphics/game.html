@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" id="css"></link>
+    <link rel="stylesheet" href="css/game.css"></link>
+    <link rel="stylesheet" href="css/common.css"></link>
+    <script src="js/libs/textFit.min.js"></script>
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="../node_modules/obs-websocket-js/dist/obs-ws.min.js"></script>
+    <script src="js/common.js" defer></script>
+    <script src="js/game.js" defer></script>
+    <script src="js/lightup.js" defer></script>
+  </head>
+  <body class="fullscreen">
+    <div class="runinfo">
+      <div class="gamebg"></div>
+      <div class="game"></div>
+      <div class="belowgame">
+        <span class="releaseAndSystem"></span>
+        <span id="warning" style="color: rgb(255,190,190);"></span>
+        <span class="estimate"></span>
+      </div>
+      <span class="category"></span>
+    </div>
+    
+    <template id="plateTemplate">
+      <div class="plate">
+        <canvas width="1600" height="200" class="lightup"></canvas>
+        <div class="twitchPlate">
+          <img class="twitchLogo" src="components/twitch-logo.png"></img>
+          <span class="twitch"></span>
+          <span class="pronouns twitchPronouns"></span>
+        </div>
+        <div class="namePlate">
+          <span class="name"></span>
+          <span class="pronouns namePronouns"></span>
+        </div>
+      </div>
+    </template>
+    
+    <div id="timerContainer">
+      <canvas width="1600" height="200" id="timerCanvas"></canvas>
+      <div id="timerTextContainer">
+        <span id="timerMain"></span>
+        <span id="timerDecis"></span>
+      </div>
+    </div>
+    
+    <div id="commentaryPlates">
+
+    </div>
+
+    <img class="fullscreen" id="lines"></img>
+  </body>
+</html>

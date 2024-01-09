@@ -1,0 +1,41 @@
+.runinfo {
+  left: 1441px;
+  top: 357px;
+}
+
+#commentaryPlates {
+  left: 1441px;
+  top: 628px;
+}
+
+.runnerPlate, #commentaryPlates, .runinfo {
+  width: 475px;
+}
+#plate0, #plate1, #plate2, #plate3 {
+  top: 275px;
+}
+#plate4 {
+  top: 628px;
+}
+#plate5, #plate6, #plate7, #plate8 {
+  top: 982px;
+}
+#plate0, #plate4, #plate5 {
+  left: 4px;
+}
+#plate1, #plate6 {
+  left: 483px;
+}
+#plate2, #plate7 {
+  left: 962px;
+}
+#plate3, #plate8 {
+  left: 1441px;
+}
+
+#timerContainer {
+  left: 1441px;
+  top: 485px;
+  width: 475px;
+  height: 139px;
+}

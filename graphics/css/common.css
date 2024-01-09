@@ -1,0 +1,158 @@
+@font-face {
+  font-family: BAHNSCHRIFT;
+  src: url(../fonts/BAHNSCHRIFT.ttf);
+}
+
+@font-face {
+  font-family: DSEG7Modern-BoldItalic;
+  src: url(../fonts/DSEG7Modern-BoldItalic.ttf);
+}
+
+.fullscreen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+* {
+  overflow: hidden;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+body > * {
+  position: fixed;
+  overflow: hidden;
+  font-family: BAHNSCHRIFT;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  color: #E1CCBD;
+  text-shadow: 2px 2px rgba(0,0,0,1);
+}
+
+#textFitStyleSheet {
+  display: none;
+}
+
+.runinfo {
+  height: 124px;
+  background-color: #29003D;
+}
+
+.gamebg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 90px;
+  line-height: 0.9;
+  background: linear-gradient(79deg, rgba(125,250,77,0.25) 0%, rgba(211,249,0,0.25) 25%, rgba(246,164,82,0.25) 75%, rgba(242,53,197,0.25) 100%);
+}
+
+.game {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 100%;
+  height: 65px;
+  line-height: 0.9;
+  overflow: hidden;
+}
+
+.game > span {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #00C663;
+}
+
+.belowgame {
+  position: absolute;
+  left: 10px;
+  top: 68px;
+  width: calc(100% - 20px);
+  height: 15px;
+  display: flex;
+  border-top: 1px solid #E1CCBD;
+  padding-top: 4px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.belowgame > span {
+  font-size: 20px;
+  color: #00C663;
+  text-shadow: initial;
+}
+
+.category {
+  position: absolute;
+  left: 10px;
+  top: 94px;
+  width: calc(100% - 20px);
+  height: 30px;
+}
+
+.category > span {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #E1CCBD;
+}
+
+.plate {
+  background-color: #29003D;
+}
+
+.twitchPlate, .namePlate, canvas {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  color: #E1CCBD;
+}
+
+.runnerPlate {
+  height: 60px;
+}
+
+.twitchLogo {
+  height: 100%;
+  width: auto;
+}
+
+.runnerPlate > .namePlate > .name, .runnerPlate > .twitchPlate > .twitch {
+  margin-bottom: -4px;
+  font-size: 40px;
+}
+
+.runnerPlate > * > .pronouns {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.pronouns {
+  color: #29003D;
+  -webkit-text-stroke: 1px #29003D;
+  padding: 0px 2px 0px 2px;
+  background: #E1CCBD;
+  border-top: 1px solid #D7B030;
+  border-left: 1px solid #D7B030;
+  border-bottom: 1px solid #D7B030;
+  border-right: 1px solid #D7B030;
+  outline: 1px solid black;
+  text-transform: uppercase;
+  text-shadow: initial;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#commentaryPlates {
+  background-color: #29003D;
+}

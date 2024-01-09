@@ -1,0 +1,49 @@
+.runinfo {
+  left: 483px;
+  top: 461px;
+  width: 475px;
+}
+
+#commentaryPlates {
+  left: 962px;
+  top: 525px;
+  width: 475px;
+}
+
+#plate0 {
+  left: 4px;
+  top: 461px;
+  width: 475px;
+}
+
+#plate1 {
+  left: 1441px;
+  top: 461px;
+  width: 475px;
+}
+
+#plate2 {
+  left: 4px;
+  top: 525px;
+  width: 475px;
+}
+
+#plate3 {
+  left: 1441px;
+  top: 525px;
+  width: 475px;
+}
+
+#timerContainer {
+  left: 962px;
+  top: 461px;
+  width: 475px;
+  height: 60px;
+  font-size: 45px !important;
+}
+
+#timerDecis {
+  position: relative;
+  top: 12px !important;
+  font-size: 22.5px !important;
+}

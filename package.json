@@ -1,0 +1,60 @@
+{
+  "name": "nynpb-layouts",
+  "version": "0.0.0",
+  "description": "Layouts for broadcast",
+  "nodecg": {
+    "compatibleRange": "^2.0.0",
+    "bundleDependencies": {
+      "nodecg-speedcontrol": "^2.4.0"
+    },
+    "graphics": [
+      {
+        "file": "break.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "game.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "dvd.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "obsStats.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "changeover_sound.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "omnibar.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "dashboardPanels": [
+      {
+        "name": "Layout Control",
+        "title": "Layout Control",
+        "file": "layoutControl.html",
+        "width": 4
+      }
+    ]
+  },
+  "dependencies": {
+    "hamming-code": "^0.0.2",
+    "node-fetch": "^2.7.0",
+    "obs-websocket-js": "^5.0.3",
+    "sharp": "^0.32.6",
+    "tiltify-api-client-v5": "^1.0.1",
+    "vlc-remote": "^5.0.2",
+    "x32-osc": "^1.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+.runinfo, #plate0, #plate1, #timerContainer, #commentaryPlates {
+  left: 4px;
+  width: 524px;
+}
+
+.runinfo {
+  top: 4px;
+}
+
+#plate0 {
+  top: 658px;
+}
+#plate1 {
+  top: 722px;
+}
+
+#timerContainer {
+  top: 786px;
+  height: 192px;
+}
+
+#commentaryPlates {
+  top: 982px;
+}
